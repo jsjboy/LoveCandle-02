@@ -3,7 +3,7 @@
         display: none;
     }
     .paginaprincipal{
-        float:right;
+        float:center;
     }
     footer {
         width:100%;
@@ -54,7 +54,7 @@
         display: none;
     }
     .paginaprincipal{
-        float:right;
+        float:center;
     }
     footer {
         width:100%;
@@ -142,17 +142,17 @@ li.dropdown {
 .dropdown:hover .dropdown-content{
     display:block;
 }
-.login{
+.paginaprincipal2{
     float: right;
-    padding: 0 4em 0 0;
+    padding: 0 6em 0 0em;
 }
 .login a:hover, .paginaprincipal a:hover{
     background: #7a89c4;
     color: #5b5b5b;
 }
-.paginaprincipal{
-    float:left;
-    padding:0 20rem 0 4em;
+.login{
+    float:center;
+    padding:0rem 20rem 0 6em;
 }
 img{
     border: 0px ridge #fff; 
