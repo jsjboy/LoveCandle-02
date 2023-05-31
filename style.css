@@ -161,7 +161,7 @@ ul.nav{
     overflow: hidden;
 }
 li {
-    float:left;
+    float:center;
 }
 li a, .dropbtn{
     display: inline-block;
