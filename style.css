@@ -65,6 +65,7 @@
     .paginaprincipal2{
         display: flex;
         flex-wrap: wrap;
+        float: right;
     }
     .nav ul {
         width: 100%;
