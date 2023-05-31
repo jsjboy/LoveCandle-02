@@ -6,6 +6,10 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
     footer {
         width:100%;
         min-height: 250px;
@@ -55,6 +59,10 @@
         display: none;
     }
     .paginaprincipal2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav ul {
         display: flex;
         flex-wrap: wrap;
     }
