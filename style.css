@@ -70,6 +70,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    color: #7a89c4;
     background: #454d6b;
 }
 h1 {
@@ -89,7 +90,8 @@ h1 {
 ul.nav{
     background: #2d2d39;
     list-style-type: none;
-    border:2px solid #ccc;
+    border-top:2px solid #666565;
+    border-bottom:2px solid #666565;
     text-shadow:2px 2px 5px #fff;
     padding: 0;
     margin: 0;
@@ -128,7 +130,7 @@ li.dropdown {
 
 .dropdown-content a:hover {
     color: #5b5b5b;
-    text-shadow:2px 2px 5px #5b5b5b;
+    text-shadow:2px 2px 5px #fff;
 }
 
 .dropdown:hover .dropdown-content{
@@ -140,14 +142,14 @@ li.dropdown {
 }
 .login a:hover, .paginaprincipal a:hover{
     background: #7a89c4;
-    color: #000;
+    color: #5b5b5b;
 }
 .paginaprincipal{
     float:left;
     padding:0 20rem 0 4em;
 }
-img {
-    border: 0px ridge #fff;
+img{
+    border: 0px ridge #fff; 
     border-radius:10px;
 }
 ul li a:hover {
@@ -189,3 +191,7 @@ footer .boxs, .box{
     width: 100%;
     text-align: center;
 }
+.CR {
+    font-size: 0.75rem;
+    display: inline;
+   }
