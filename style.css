@@ -1,6 +1,9 @@
 @media only screen and (max-width:600px){
-    .paginaprincipal{
+    .login{
         display: none;
+    }
+    .paginaprincipal{
+        float:right;
     }
     footer {
         width:100%;
@@ -47,8 +50,11 @@
     }
 }
 @media only screen and (max-width:992px){
-    .paginaprincipal{
+    .login{
         display: none;
+    }
+    .paginaprincipal{
+        float:right;
     }
     footer {
         width:100%;
