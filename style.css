@@ -1,7 +1,4 @@
 @media only screen and (max-width:600px){
-    .login{
-        display: none;
-    }
     .paginaprincipal2{
         display: flex;
         flex-wrap: wrap;
@@ -59,13 +56,9 @@
     }
 }
 @media only screen and (max-width:992px){
-    .login{
-        display: none;
-    }
     .paginaprincipal2{
         display: flex;
         flex-wrap: wrap;
-        float: right;
     }
     .nav ul {
         width: 100%;
@@ -83,7 +76,6 @@
     li.dropdown{
         display: flex;
         flex-wrap: wrap;
-        padding: 0 8em 1em 8em;
     }
     li a, .dropbtn{
         display: flex;
@@ -205,10 +197,6 @@ li.dropdown {
 .paginaprincipal a:hover{
     background: #e4e2c4;
     color: #5b5b5b;
-}
-.login{
-    float:center;
-    padding:0rem 20rem 0 6em;
 }
 img{
     border: 0px ridge #fff; 
